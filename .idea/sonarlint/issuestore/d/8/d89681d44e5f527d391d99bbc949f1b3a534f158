@@ -1,0 +1,20 @@
+
+m	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ÛÜê8ãì¦×Ü1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÍÖÜ8åì¦×Ü1
+c
+java:S2259,"AA "NullPointerException" could be thrown; "con" is nullable here.(éÆ“šûÿÿÿÿ8Ûí¦×Ü1
+c
+java:S2259P"AA "NullPointerException" could be thrown; "con" is nullable here.(éÆ“šûÿÿÿÿ8Ûí¦×Ü1
+q
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÙØ÷ùÿÿÿÿ8Üí¦×Ü1
+k
+java:S2095;"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(â£¬^8Üí¦×Ü1
+L	java:S106"+Replace this use of System.out by a logger.(³®Š®üÿÿÿÿ8åí¦×Ü1
+L	java:S106"+Replace this use of System.out by a logger.(ù¦ËÆıÿÿÿÿ8æí¦×Ü1
+G	java:S106"+Replace this use of System.out by a logger.(Ü³È˜8èí¦×Ü1
+G	java:S106"+Replace this use of System.out by a logger.(Ø®ÃÖ8èí¦×Ü1
+L
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ëí¦×Ü1
+Q
+java:S14816"/Remove this unused "rowUpdated" local variable.(Œ£ãíùÿÿÿÿ8ìí¦×Ü1
+G	java:S106G"+Replace this use of System.out by a logger.(Œ½¯8¨™®×Ü1

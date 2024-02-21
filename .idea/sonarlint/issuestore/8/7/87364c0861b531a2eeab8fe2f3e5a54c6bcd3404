@@ -1,0 +1,16 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÍÖÜ8° Ô‚Î1
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Öùäşûÿÿÿÿ8ÿ¼à‚Î1
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¹“™‚úÿÿÿÿ8üåà‚Î1
+W
+java:S1118":Add a private constructor to hide the implicit public one.(œ±íé8ÿåà‚Î1
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(£±ê¾8¢“à‚Î1
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Öùäşûÿÿÿÿ8…½à‚Î1
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¹“™‚úÿÿÿÿ8ƒæà‚Î1
+O
+java:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ8Ï Ô‚Î1
+F
+java:S2115")Add password protection to this database.(ÈŸÃ™8üîã‚Î1
