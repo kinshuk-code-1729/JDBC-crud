@@ -71,3 +71,17 @@ System.out.println("Record updated.");
 e.printStackTrace(); 
 }
 ```
+
+## 5. Delete a record :
+_To delete a record from the database, you will need to use an SQL DELETE statement and execute it using the connection object._
+```java
+try { 
+String sql = "DELETE FROM table_name WHERE id = ?"; 
+PreparedStatement statement = con.prepareStatement(sql); 
+statement.setInt(1, 1); 
+statement.executeUpdate(); 
+System.out.println("Record deleted."); 
+} catch (SQLException e) { 
+e.printStackTrace(); 
+}
+```
