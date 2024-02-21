@@ -31,3 +31,25 @@ System.out.println("Record created.");
 e.printStackTrace(); 
 }
 ```
+## 3. Read a record :
+
+_To read a record from the database, you will need to use an SQL SELECT statement and execute it using the connection object. The result of the query will be a ResultSet object that you can use to access the data in the record._
+```java
+try { 
+String sql = "SELECT column1, column2, column3 FROM table_name WHERE id = ?"; 
+PreparedStatement statement = con.prepareStatement(sql); 
+statement.setInt(1, 1); 
+ResultSet result = statement.executeQuery(); 
+if (result.next()) { 
+	String column1 = result.getString("column1"); 
+	String column2 = result.getString("column2"); 
+	int column3 = result.getInt("column3"); 
+	System.out.println("Column 1: " + column1); 
+	System.out.println("Column 2: " + column2); 
+	System.out.println("Column 3: " + column3); 
+} 
+} catch (SQLException e) { 
+e.printStackTrace(); 
+}
+
+```
